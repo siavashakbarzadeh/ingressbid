@@ -210,7 +210,7 @@
 
 
                                 <div class="countdown" data-expire-date="{{$ad->expired_at}}" ></div>
-                                <div class="place-bid-btn">
+                                <div class="btn btn-border btn-sm">
                                     <a href="{{ route('single_ad', [$ad->id, $ad->slug]) }}" class="btn btn-primary">@lang('app.place_bid')</a>
                                 </div>
 
