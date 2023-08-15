@@ -1354,3 +1354,25 @@ Auction
 .place-bid-btn{
     text-align: center;
 }
+.btn-border {
+    background: transparent;
+    border: 1px solid var(--white);
+    padding: 14px 29px;
+}
+.btn-border:after {
+    background: rgba(255,0,118,.9);
+    background: linear-gradient(45deg,rgba(255,0,118,.9),rgba(89,15,135,.9));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0076",endColorstr="#590f87",GradientType=1);
+}
+.btn-border:after {
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    opacity: 0;
+}
