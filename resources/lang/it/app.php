@@ -1,10 +1,11 @@
 <?php
 
 return [
-    
+
     'login' => 'Accedi',
     'register' => 'Registrati',
-    'action' => 'Action',
+    'action' => 'Azione',
+    'actions' => 'Azioni',
     'error_msg' => 'Something went wrong, please try again',
     'registration_success' => 'Registration Success',
     'unauthorized_access' => 'Unauthorized access',
@@ -25,7 +26,7 @@ return [
     'category_edit_page_warning_msg' => 'Note: Category slug will be also change, it may effect on SEO',
     'category_exists_in_db' => 'This category already exists in database',
     'current_slug' => 'Current Slug',
-    'actions' => 'Actions',
+
     'category_deleted_success' => 'Category has been deleted successfully',
     'language_deleted_success' => 'Language has been deleted successfully',
     'total_ads' => 'Total Ads',
