@@ -70,7 +70,7 @@
                     @foreach($premium_ads as $ad)
                         <div class="col-md-3">
 
-                            <div class="card">
+                            <div class="post-card">
                                 <div class="post-thumbnail">
                                     <a href="{{ route('single_ad', [$ad->id, $ad->slug]) }}">
                                         <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
