@@ -3,7 +3,7 @@
 
 @section('content')
     @if(get_option('enable_monetize') == 1)
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     {!! get_option('monetize_code_above_categories') !!}
@@ -15,8 +15,8 @@
     @if($top_categories->count())
         <div class="home-category">
 
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row bg-success">
                     <div class="col-md-12">
                         <div class="front-ads-head">
                             <h2>@lang('app.categories')</h2>
