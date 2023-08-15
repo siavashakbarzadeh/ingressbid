@@ -13,9 +13,9 @@
     @endif
 
     @if($top_categories->count())
-        <div class="home-category">
+        <div class="home-category bg-success">
 
-            <div class="container bg-success">
+            <div class="container ">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="front-ads-head">
