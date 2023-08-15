@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'login' => 'Login',
-    'register' => 'Register',
+    
+    'login' => 'Accedi',
+    'register' => 'Registrati',
     'action' => 'Action',
     'error_msg' => 'Something went wrong, please try again',
     'registration_success' => 'Registration Success',
