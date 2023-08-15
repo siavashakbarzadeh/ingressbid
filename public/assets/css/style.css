@@ -1351,12 +1351,29 @@ Auction
     font-size: 14px;
     text-align: center;
 }
-.place-bid-btn{
-    text-align: center;
+/*.place-bid-btn{*/
+/*    text-align: center;*/
+/*}*/
+.btn {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--title-font);
+    line-height: 1;
+    padding: 15px 29px;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border: none;
+    background-size: 200% 100%;
 }
 .btn-border {
     background: transparent;
-    border: 1px solid var(--white);
+    border: 1px solid white;
     padding: 14px 29px;
 }
 .btn-border:after {
