@@ -15,8 +15,8 @@
     @if($top_categories->count())
         <div class="home-category">
 
-            <div class="container-fluid">
-                <div class="row bg-success">
+            <div class="container">
+                <div class="row ">
                     <div class="col-md-12">
                         <div class="front-ads-head">
                             <h2>@lang('app.categories')</h2>
