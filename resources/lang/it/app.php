@@ -10,10 +10,11 @@ return [
     'registration_success' => 'Registration Success',
     'unauthorized_access' => 'Unauthorized access',
     'logout' => 'Disconnettersi',
-    
+
     'category_name' => 'Category Name',
-    'categories' => 'Categories',
-    'category' => 'Category',
+
+    'categories' => 'Categorie',
+    'category' => 'Categoria',
     'top_category' => 'Top Category',
     'save_new_category' => 'Save new category',
     'edit_category' => 'Edit Category',
