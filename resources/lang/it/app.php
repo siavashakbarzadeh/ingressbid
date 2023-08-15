@@ -9,7 +9,8 @@ return [
     'error_msg' => 'Something went wrong, please try again',
     'registration_success' => 'Registration Success',
     'unauthorized_access' => 'Unauthorized access',
-    'logout' => 'Log-Out',
+    'logout' => 'Disconnettersi',
+    
     'category_name' => 'Category Name',
     'categories' => 'Categories',
     'category' => 'Category',
